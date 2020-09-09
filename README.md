@@ -56,6 +56,8 @@ This will install carla-ros-bridge-<melodic or kinetic> in /opt/carla-ros-bridge
 
 ### For Developers
 
+#### Using ROS1
+
     Create a catkin workspace and install carla_ros_bridge package
 
     #setup folder structure
@@ -78,6 +80,17 @@ This will install carla-ros-bridge-<melodic or kinetic> in /opt/carla-ros-bridge
 
 For more information about configuring a ROS environment see
 <http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment>
+
+#### Using ROS2
+
+    In development
+
+    To test the ROS2 implementation, the rmw_fasrtps_cpp RMW implementation should be used. (default with ROS2 standard installation).
+
+
+    
+
+    
 
 ## Start the ROS bridge
 
